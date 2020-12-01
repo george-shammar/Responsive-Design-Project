@@ -1,0 +1,106 @@
+nav {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    position: fixed;
+}
+
+.nav_icons {
+    position: absolute;
+    right: 5%;
+}
+
+/*.search {
+    margin-right: 1%;
+    width: 20px;
+}
+
+.first_img_txt {
+    position: absolute;
+}*/
+
+.txt1 {
+    position: absolute;
+    margin-top: 30%;
+    color: white;
+}
+
+.txt2_3{
+    position: absolute;
+    margin-top: 20%;
+    color: white;
+}
+
+.img1 {
+    height: 184px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.img2_3 {
+    height: 184px;
+    width: 100%;
+}
+
+.span {
+    color: grey;
+    font-size: 10px;
+}
+
+.latest_list {
+    color:orangered;
+    margin-bottom: -10px;
+}
+
+.div_hard_fork {
+    height: auto;
+    width: 100%;
+}
+
+.hard_fork_img {
+    height: 100%;
+    width: 100%;
+}
+
+.hard_fork_txt {
+    position: absolute;
+    margin-top: 60%;
+    color: white;
+}
+
+.hard_fork_div2 {
+    display: flex;
+    background-color: rgb(236, 217, 182);
+}
+
+.hard_img {
+    height: 96px;
+    width: 96px;
+}
+
+.list {
+    margin-left: -15px;
+    list-style: orange;
+}
+
+.div_latest_deal {
+    display:flex;
+}
+
+.hard_fork_div2_txt {
+    color: orangered;
+}
+
+.latest_news_img {
+    width: 75px;
+    height: 75px;
+}
+
+.lastest_deal_img {
+    width: 75px;
+    height: 75px;
+}
+
+.lastest_news {
+    display: flex;
+}

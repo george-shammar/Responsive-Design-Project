@@ -116,7 +116,7 @@
 .latest-news-text{
     margin-left: 15px;
 }
-
+/* 
 .last-footer {
     padding-left: 15%;
     padding-right: 15%;
@@ -124,15 +124,15 @@
     display: flex;
     text-align: center;
 
-}
-
+} */
+/* 
 .last-footer-text{
     color: rgb(235, 222, 222);
-}
-
+} */
+/* 
 .last-footer-img{
     width: 20%;
-}
+} */
 
 
 .flex-footer2{
@@ -140,7 +140,7 @@
     text-align: center;
     margin-top: 
 }
-
+/* 
 .search_2{
     border-radius: 50%;
     background: grey;
@@ -150,27 +150,27 @@
     text-align: center;
     color: white;
     margin: 0.5%;
-}
-
+} */
+/* 
 .footer-text{
     display: flex;
     color: white;
     text-align: center;
     justify-content: space-between;
 
-}
+} */
 
-.top-footer{
+/* .top-footer{
     padding-left: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
     padding-right: 15%;
     background-color: rgb(51, 51, 51);
-}
-
+} */
+/* 
 .search{
     margin-left: 5%;
-}
+} */
 
 .infogrid{
     background-color: orangered;
@@ -205,4 +205,86 @@
 
 .hard_fork{
     color: orangered;
+}
+
+
+.search_2{
+    background: rgb(124, 123, 123);
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    width: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    color: white;
+    margin: 0.5%;
+
+}
+
+.mail{
+    background: rgb(124, 123, 123);
+    border-radius: 50%;
+    display: block;
+    height: 20px;
+    width: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    color: white;
+    margin: 0.5%;
+    
+}
+
+.flex-footer{
+    display: flex;
+    color: rgb(247, 241, 241);
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.footer.icons{
+    display: flex;
+    justify-content: ;
+}
+
+.footer-deals{
+    padding: 40px;
+    background-color: rgb(34, 33, 33);
+    align-content: center;
+}
+
+.foot-foot{
+    padding: 25px;
+    background-color: rgb(7, 7, 7);
+    color: rgb(247, 241, 241);
+    text-align: center;
+}
+
+.foot-foot-img{
+    width: 50px;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    left: 20%; */
+}
+#event{
+    margin: 1%;
+}
+
+#about{
+    margin: 1%;
+}
+#advertise{
+    margin: 1%;
+}
+#jobs{
+    margin: 1%;
+}
+
+#contact{
+    margin: 1%;
 }

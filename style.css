@@ -104,3 +104,40 @@ nav {
 .lastest_news {
     display: flex;
 }
+
+.last-footer {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: black;
+}
+
+.last-footer-text{
+    color: rgb(235, 222, 222);
+}
+
+.last-footer-img{
+    width: 20%;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: center;
+    margin: -15%;
+}
+
+.flex-footer2{
+    color: rgb(235, 222, 222);
+    text-align: center;
+    margin-top: 
+}
+
+.search_2{
+    border-radius: 50%;
+    background: grey;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0.5%;
+}

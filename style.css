@@ -63,6 +63,10 @@
     width: 100%;
 }
 
+#tech{
+    height: 400px;
+}
+
 .hard_fork_txt {
     position: absolute;
     margin-top: 60%;

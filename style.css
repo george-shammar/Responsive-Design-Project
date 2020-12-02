@@ -1,9 +1,9 @@
 .navigation {
-    display: flex;
-    width: 100%;
-    height: 46px;
-    position: fixed;
-    background-color: white;
+  display: flex;
+  width: 100%;
+  height: 46px;
+  position: fixed;
+  background-color: white;
 }
 
 .nav_icons {
@@ -12,100 +12,100 @@
 }
 
 .txt1 {
-    position: absolute;
-    margin-top: 30%;
-    color: white;
+  position: absolute;
+  margin-top: 30%;
+  color: white;
 }
 
 .txt2_3 {
-    position: absolute;
-    margin-top: 20%;
-    color: white;
+  position: absolute;
+  margin-top: 20%;
+  color: white;
 }
 
 .img1 {
-    height: 184px;
-    width: 100%;
-    margin-top: 10%;
+  height: 184px;
+  width: 100%;
+  margin-top: 10%;
 }
 
 .img2_3 {
-    height: 184px;
-    width: 100%;
+  height: 184px;
+  width: 100%;
 }
 
 .span {
-    color: grey;
-    font-size: 10px;
+  color: grey;
+  font-size: 10px;
 }
 
 .latest_list {
-    color: orangered;
-    margin-bottom: -10px;
+  color: orangered;
+  margin-bottom: -10px;
 }
 
 .div_hard_fork {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .hard_fork_img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #tech{
-    height: 400px;
+  height: 400px;
 }
 
 .hard_fork_txt {
-    position: absolute;
-    margin-top: 60%;
-    color: white;
+  position: absolute;
+  margin-top: 60%;
+  color: white;
 }
 
 .hard_fork_div2 {
-    display: flex;
-    background-color: rgb(236, 217, 182);
-    justify-content: stretch;
+  display: flex;
+  background-color: rgb(236, 217, 182);
+  justify-content: stretch;
 }
 
 .hard_img {
-    height: 96px;
-    width: 96px;
-    justify-content: flex-end;
+  height: 96px;
+  width: 96px;
+  justify-content: flex-end;
 }
 
 .list {
-    margin-left: -15px;
-    list-style: orange;
+  margin-left: -15px;
+  list-style: orange;
 }
 
 .div_latest_deal {
-    display: flex;
+  display: flex;
 }
 
 .hard_fork_div2_txt {
-    color: orangered;
+  color: orangered;
     
 }
 
 .latest_news_img {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
 
 .lastest_deal_img {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
 
 .lastest_news {
-    display: flex;
+  display: flex;
 }
 
 .latest-news-text {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 /* 
 .last-footer {
@@ -127,8 +127,8 @@
 
 
 .flex-footer2 {
-    color: rgb(235, 222, 222);
-    text-align: center; 
+  color: rgb(235, 222, 222);
+  text-align: center; 
 }
 /* 
 .search_2{
@@ -163,65 +163,64 @@
 } */
 
 .infogrid {
-    background-color: orangered;
-    color: white;
-    padding-left: 18%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-bottom: 0%;
+  background-color: orangered;
+  color: white;
+  padding-left: 18%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 0%;
 }
 
 .infogrid-img {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .seriesA {
-    background-color: rgb(225, 223, 220);
-    margin-top: 2px;
-    padding-right: 25px;
+  background-color: rgb(225, 223, 220);
+  margin-top: 2px;
+  padding-right: 25px;
 }
 
 .suitcase-flex {
-    display: flex;
+  display: flex;
 }
 
 .News {
-    color: orangered;
+  color: orangered;
 }
 
 .hard_fork {
-    color: orangered;
+  color: orangered;
 }
 
 .search_2 {
-    background: rgb(124, 123, 123);
-    border-radius: 50%;
-    display: block;
-    height: 20px;
-    width: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 40px;
-    color: white;
-    margin: 0.5%;
+  background: rgb(124, 123, 123);
+  border-radius: 50%;
+  display: block;
+  height: 20px;
+  width: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+  color: white;
+  margin: 0.5%;
 }
 
 .mail {
-    background: rgb(124, 123, 123);
-    border-radius: 50%;
-    display: block;
-    height: 20px;
-    width: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 40px;
-    color: white;
-    margin: 0.5%;
-    
+  background: rgb(124, 123, 123);
+  border-radius: 50%;
+  display: block;
+  height: 20px;
+  width: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+  color: white;
+  margin: 0.5%; 
 }
 
 .flex-footer {

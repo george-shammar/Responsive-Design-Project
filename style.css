@@ -109,6 +109,9 @@ nav {
     padding-left: 15%;
     padding-right: 15%;
     background-color: black;
+    display: flex;
+    text-align: center;
+
 }
 
 .last-footer-text{
@@ -119,11 +122,6 @@ nav {
     width: 20%;
 }
 
-.flex-footer{
-    display: flex;
-    justify-content: center;
-    margin: -15%;
-}
 
 .flex-footer2{
     color: rgb(235, 222, 222);
@@ -140,4 +138,45 @@ nav {
     text-align: center;
     color: white;
     margin: 0.5%;
+}
+
+.footer-text{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.top-footer{
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 15%;
+    background-color: rgb(51, 51, 51);
+}
+
+.search{
+    margin-left: 5%;
+}
+
+.infogrid{
+    background-color: orangered;
+    color: white;
+    padding-left: 18%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.infogrid-img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.seriesA{
+    background-color: orange;
+    
 }

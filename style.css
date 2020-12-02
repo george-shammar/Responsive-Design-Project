@@ -1,8 +1,9 @@
-nav {
+.navigation{
     display: flex;
     width: 100%;
     height: 46px;
     position: fixed;
+    background-color: white;
 }
 
 .nav_icons {
@@ -71,11 +72,13 @@ nav {
 .hard_fork_div2 {
     display: flex;
     background-color: rgb(236, 217, 182);
+    justify-content: stretch;
 }
 
 .hard_img {
     height: 96px;
     width: 96px;
+    justify-content: flex-end;
 }
 
 .list {
@@ -89,6 +92,7 @@ nav {
 
 .hard_fork_div2_txt {
     color: orangered;
+    
 }
 
 .latest_news_img {
@@ -103,6 +107,10 @@ nav {
 
 .lastest_news {
     display: flex;
+}
+
+.latest-news-text{
+    margin-left: 15px;
 }
 
 .last-footer {
@@ -166,6 +174,7 @@ nav {
     padding-left: 18%;
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-bottom: 0%;
 }
 
 .infogrid-img{
@@ -177,6 +186,19 @@ nav {
 }
 
 .seriesA{
-    background-color: orange;
-    
+    background-color: rgb(225, 223, 220);
+    margin-top: 2px;
+    padding-right: 25px;
+}
+
+.suitcase-flex{
+    display: flex;
+}
+
+.News{
+    color: orangered;
+}
+
+.hard_fork{
+    color: orangered;
 }

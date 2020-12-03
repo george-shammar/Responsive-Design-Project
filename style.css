@@ -119,7 +119,7 @@
 
 .flex-footer2 {
   color: rgb(235, 222, 222);
-  text-align: center; 
+  text-align: center;
 }
 
 .infogrid {
@@ -201,6 +201,7 @@
   display: flex;
   justify-content: center;
 }
+
 #event {
   margin: 1%;
 }
@@ -326,7 +327,7 @@
     width: 100%;
     margin: auto;
   }
-} 
+}
 
 @media only screen and (min-width: 768px) {
   .aaa {
@@ -347,66 +348,66 @@
 
   .container_3 {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
       'aa bb cc dd';
     gap: 0.5%;
     width: 100%;
     height: 100%;
-    }
+  }
 
-    .infogrid {
-      background-color: orangered;
-      color: white;
-      padding-left: 30%;
-      padding-top: 3%;
-      padding-bottom: 3%;
-      margin-bottom: 0%;
-    }
+  .infogrid {
+    background-color: orangered;
+    color: white;
+    padding-left: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 0%;
+  }
     
-    .infogrid-img {
-      width: 50px;
-      height: 50px;
-      position: absolute;
-      margin-top: 20px;
-      margin-left: 10px;
-    }
+  .infogrid-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
     
-    .seriesA {
-      background-color: rgb(225, 223, 220);
-      margin-top: 2px;
-      padding-left: 30%;
-    }
+  .seriesA {
+    background-color: rgb(225, 223, 220);
+    margin-top: 2px;
+    padding-left: 30%;
+  }
   
-    .aaa {
-      width: 100%;
-      margin: auto;
-      height: 100%
-    }
+  .aaa {
+    width: 100%;
+    margin: auto;
+    height: 100%
+  }
   
-    .bbb {
-      width: 100%;
-      margin: auto;
-      height: 100%;
-    }
+  .bbb {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
   
-    .ccc {
-      width: 100%;
-      margin: auto;
-      height: 100%
-    }
+  .ccc {
+    width: 100%;
+    margin: auto;
+    height: 100%
+  }
   
-    .ddd {
-      width: 100%;
-      margin: auto;
-      height: 100%;
-    }
+  .ddd {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .a1a {
     grid-area: a1a;
   }
-    
+
   .a2a {
     grid-area: a2a;
   }
@@ -414,7 +415,7 @@
   .a3a {
     grid-area: a3a;
   }
-    
+
   .a4a {
     grid-area: a4a;
   }
@@ -465,11 +466,11 @@
   .b3b {
     grid-area: b3b;
   }
-        
+
   .b4b {
     grid-area: b4b;
-  }  
-  
+  }
+
   .b5b {
     grid-area: b5b;
   }
@@ -512,7 +513,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   a {
     text-decoration: none;
     color: grey;
@@ -611,7 +611,6 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-
   a {
     text-decoration: none;
     color: grey;

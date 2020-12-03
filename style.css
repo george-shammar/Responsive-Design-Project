@@ -579,6 +579,7 @@
     width: 100%;
     margin: auto;
 }
+}
 
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -596,15 +597,13 @@
     width: 100%;
     margin: auto;
   }
-  
+
   .container_5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
   }
 }
-
-
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
 

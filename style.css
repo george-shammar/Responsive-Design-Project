@@ -312,22 +312,26 @@
     grid-template-areas:
       'a1 a2 a3 a4'
       'a5 a6 a7 a8';
+    width: 100%;
+    gap: 0.5%;
   }
 
   .lastest_news {
     display: block;
+    width: 100%;
   }
 
   .latest-news-text {
-    margin-left: 0;
-    width: 270px;
+    margin: auto;
+    width: 100%;
   }
 
   .latest_news_img {
     height: 135px;
-    width: 270px;
+    width: 100%;
+    margin: auto;
   }
-}
+} 
 
 @media only screen and (min-width: 768px){
   .aaa{
@@ -442,7 +446,9 @@
 
   .lastest_deal_img {
     height: 214px;
-    width: 288px;
+    /* width: 288px; */
+    width: 100%;
+    margin: auto;
   }
 
   .hard_fork_txt {
@@ -456,5 +462,169 @@
     grid-template-areas:
       'b1b b2b b3b b4b'
       'b5b b6b b7b b8b';
+    width: 100%;
   }
+}
+
+
+
+
+/* .....................New day................................................*/
+
+
+/* @media only screen and (min-width: 600px) { 
+  .one {
+    grid-area: a1;
+  }
+
+  .two {
+    grid-area: a2;
+  }
+
+  .three {
+    grid-area: a3;
+  }
+
+  .four {
+    grid-area: a4;
+  }
+
+  .five {
+    grid-area: a5;
+  }
+
+  .six {
+    grid-area: a6;
+  }
+
+  .seven {
+    grid-area: a7;
+  }
+
+  .eight {
+    grid-area: a8;
+  }
+
+  .container_2 {
+    grid-gap: -50%;
+    display: grid;
+    grid-template-areas:
+      'a1 a2 a3'
+      'a4 a5 a6' 
+      'a7 a8'; 
+  }
+
+  .lastest_news {
+    display: block;
+  }
+
+  .latest-news-text {
+    margin-left: 0;
+    width: 270px;
+  }
+
+  .latest_news_img {
+    height: 135px;
+    width: 270px;
+  }
+} 
+} */
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 0.5%;
+  }
+
+  .lastest_news {
+    display: block;
+    width: 100%;
+  }
+
+  .latest-news-text {
+    margin: auto;
+    width: 100%;
+  }
+
+  .latest_news_img {
+    height: 135px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  /* .b1b {
+    grid-area: b1b;
+  }
+
+  .b2b {
+    grid-area: b2b;
+  }
+
+  .b3b {
+    grid-area: b3b;
+  }
+        
+  .b4b {
+    grid-area: b4b;
+  }  
+  
+  .b5b {
+    grid-area: b5b;
+  }
+
+  .b6b {
+    grid-area: b6b;
+  }
+  
+  .b7b {
+    grid-area: b7b;
+  }
+
+  .b8b {
+    grid-area: b8b;
+  } */
+
+  .div_latest_deal {
+    display: block;
+  }
+
+  .lastest_deal_img {
+    /*height: 214px;
+    width: 288px; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .latest-news-text {
+    /* margin-top: 25%; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .container_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  } 
+
+  /* .container_5 {
+    grid-gap: 0.5%;
+    display: grid;
+    grid-template-areas:
+      'b1b b2b b3b' 
+      'b4b b5b b6b' 
+      'b7b b8b';
+    width: 100%;
+  } */
 }

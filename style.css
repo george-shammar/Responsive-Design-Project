@@ -54,7 +54,7 @@
   width: 100%;
 }
 
-#tech{
+#tech {
   height: 400px;
 }
 
@@ -87,7 +87,6 @@
 
 .hard_fork_div2_txt {
   color: orangered;
-    
 }
 
 .latest_news_img {
@@ -107,60 +106,11 @@
 .latest-news-text {
   margin-left: 15px;
 }
-/* 
-.last-footer {
-    padding-left: 15%;
-    padding-right: 15%;
-    background-color: black;
-    display: flex;
-    text-align: center;
-
-} */
-/* 
-.last-footer-text{
-    color: rgb(235, 222, 222);
-} */
-/* 
-.last-footer-img{
-    width: 20%;
-} */
-
 
 .flex-footer2 {
   color: rgb(235, 222, 222);
   text-align: center; 
 }
-/* 
-.search_2{
-    border-radius: 50%;
-    background: grey;
-    height: 20px;
-    width: 20px;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    margin: 0.5%;
-} */
-/* 
-.footer-text{
-    display: flex;
-    color: white;
-    text-align: center;
-    justify-content: space-between;
-
-} */
-
-/* .top-footer{
-    padding-left: 15%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-right: 15%;
-    background-color: rgb(51, 51, 51);
-} */
-/* 
-.search{
-    margin-left: 5%;
-} */
 
 .infogrid {
   background-color: orangered;
@@ -205,7 +155,7 @@
   width: 10px;
   padding: 10px;
   text-align: center;
-  width: 40px;
+  /* width: 40px; */
   color: white;
   margin: 0.5%;
 }
@@ -224,287 +174,287 @@
 }
 
 .flex-footer {
-    display: flex;
-    color: rgb(247, 241, 241);
-    justify-content: center;
-    margin-top: 5%;
+  display: flex;
+  color: rgb(247, 241, 241);
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .footer.icons {
-    display: flex;
+  display: flex;
 }
 
 .footer-deals {
-    padding: 40px;
-    background-color: rgb(34, 33, 33);
-    align-content: center;
+  padding: 40px;
+  background-color: rgb(34, 33, 33);
+  align-content: center;
 }
 
 .foot-foot {
-    padding: 25px;
-    background-color: rgb(7, 7, 7);
-    color: rgb(247, 241, 241);
-    text-align: center;
+  padding: 25px;
+  background-color: rgb(7, 7, 7);
+  color: rgb(247, 241, 241);
+  text-align: center;
 }
 
 .foot-foot-img {
-    width: 50px;
+  width: 50px;
 }
 
 #icons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 #event {
-    margin: 1%;
+  margin: 1%;
 }
 
 #about {
-    margin: 1%;
+  margin: 1%;
 }
 
 #advertise {
-    margin: 1%;
+  margin: 1%;
 }
 
 #jobs {
-    margin: 1%;
+  margin: 1%;
 }
 
 #contact {
-    margin: 1%;
+  margin: 1%;
 }
 
 @media only screen and (min-width: 768px){
-.first_img_txt {
+  .first_img_txt {
     grid-area: a;
-}
+  }
 
-.img1 {
+  .img1 {
     height: 398px;
-}
+  }
 
-.txt1 {
+  .txt1 {
     margin-top: 400px;
-}
+  }
 
-.txt_3 {
+  .txt_3 {
     margin-top: 15%;
-}
+  }
 
-.img2_3 {
-   height: 194px;
-}
+  .img2_3 {
+    height: 194px;
+  }
 
-.img_2 {
+  .img_2 {
     margin-top: 15%;
     padding-top: 17px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-}
+  }
 
 
-.second_img_txt {
+  .second_img_txt {
     grid-area: b;
-}
+  }
 
-.third_img_txt {
+  .third_img_txt {
     grid-area: c;
-}
+  }
 
-.container {
+  .container {
     grid-gap: 0.5%;
     display: grid;
     grid-template-areas:
-    'a a b'
-    'a a b'
-    'a a c'
-    'a a c';
-}
+      'a a b'
+      'a a b'
+      'a a c'
+      'a a c';
+  }
 }
 
 @media only screen and (min-width: 768px){
-.one {
+  .one {
     grid-area: a1;
-}
+  }
 
-.two {
+  .two {
     grid-area: a2;
-}
+  }
 
-.three {
+  .three {
     grid-area: a3;
-}
+  }
 
-.four {
+  .four {
     grid-area: a4;
-}
+  }
 
-.five {
+  .five {
     grid-area: a5;
-}
+  }
 
-.six {
+  .six {
     grid-area: a6;
-}
+  }
 
-.seven {
+  .seven {
     grid-area: a7;
-}
+  }
 
-.eight {
+  .eight {
     grid-area: a8;
-}
+  }
 
-.container_2 {
+  .container_2 {
     grid-gap: -50%;
     display: grid;
     grid-template-areas:
-    'a1 a2 a3 a4'
-    'a5 a6 a7 a8';
-}
+      'a1 a2 a3 a4'
+      'a5 a6 a7 a8';
+  }
 
-.lastest_news {
+  .lastest_news {
     display: block;
-}
+  }
 
-.latest-news-text {
+  .latest-news-text {
     margin-left: 0;
     width: 270px;
-}
+  }
 
-.latest_news_img {
+  .latest_news_img {
     height: 135px;
     width: 270px;
-}
+  }
 }
 
 @media only screen and (min-width: 768px){
-.aaa{
+  .aaa{
     grid-area: aa;
-}
+  }
 
-.bbb{
+  .bbb{
     grid-area: bb;
-}
+  }
 
-.ccc{
+  .ccc{
     grid-area: cc;
-}
+  }
 
-.ddd{
+  .ddd{
     grid-area: dd;
-}
+  }
 
-.container_3 {
+  .container_3 {
     grid-gap: 0.5%;
     display: flex;
-}
+  }
 }
 
 @media only screen and (min-width: 768px){
-.a1a {
+  .a1a {
     grid-area: a1a;
-}
+  }
     
-.a2a {
+  .a2a {
     grid-area: a2a;
-}
+  }
     
-.a3a {
+  .a3a {
     grid-area: a3a;
-}
+  }
     
-.a4a {
+  .a4a {
     grid-area: a4a;
-}
+  }
 
-.a5a {
+  .a5a {
     grid-area: a5a;
-}
+  }
 
-.a6a {
+  .a6a {
     grid-area: a6a;
-}
+  }
 
-.a7a {
+  .a7a {
     grid-area: a7a;
-}
+  }
 
-.a8a {
+  .a8a {
     grid-area: a8a;
-}
+  }
 
-.a9a {
+  .a9a {
     grid-area: a9a;
-}
+  }
 
-.hard_fork_img {
+  .hard_fork_img {
     height: 393px;
-}
+  }
 
-.container_4 {
+  .container_4 {
     grid-gap: 0.5%;
     display: grid;
     grid-template-areas:
-    'a1a a2a a3a'
-    'a4a a5a a6a'
-    'a7a a8a a9a';
-}
+      'a1a a2a a3a'
+      'a4a a5a a6a'
+      'a7a a8a a9a';
+  }
 }
 
 @media only screen and (min-width: 768px) {
-.b1b {
+  .b1b {
     grid-area: b1b;
-}
-        
-.b2b {
+  }
+
+  .b2b {
     grid-area: b2b;
-}
-        
-.b3b {
+  }
+
+  .b3b {
     grid-area: b3b;
-}
+  }
         
-.b4b {
+  .b4b {
     grid-area: b4b;
-}
-    
-.b5b {
+  }  
+  
+  .b5b {
     grid-area: b5b;
-}
-    
-.b6b {
+  }
+
+  .b6b {
     grid-area: b6b;
-}
-    
-.b7b {
+  }
+  
+  .b7b {
     grid-area: b7b;
-}
-    
-.b8b {
+  }
+
+  .b8b {
     grid-area: b8b;
-}
+  }
 
-.div_latest_deal {
+  .div_latest_deal {
     display: block;
-}
+  }
 
-.lastest_deal_img {
+  .lastest_deal_img {
     height: 214px;
     width: 288px;
-}
+  }
 
-.hard_fork_txt {
+  .hard_fork_txt {
     margin-top: 25%;
     width: 288px;
-}
-    
-.container_5 {
+  }
+
+  .container_5 {
     grid-gap: 0.5%;
     display: grid;
     grid-template-areas:
-    'b1b b2b b3b b4b'
-    'b5b b6b b7b b8b';
-}
+      'b1b b2b b3b b4b'
+      'b5b b6b b7b b8b';
+  }
 }

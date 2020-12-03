@@ -2,7 +2,7 @@
 
 This project clones the "The Next Web" webpage.
 
-![Image of a screenshot of our cloned page](asset/image/project_2_screenshot.jpg)
+![Image of a screenshot of our cloned page](asset/image/project_2_screenshot.png)
 
 **Built With:**
 

@@ -7,12 +7,12 @@
 }
 
 .navigation_tablet {
-  display:none;
+  display: none;
 }
 
-.nav_img{
-  height:48px;
-  width:106px;
+.nav_img {
+  height: 48px;
+  width: 106px;
 }
 
 .nav_icons {
@@ -165,7 +165,6 @@
   width: 10px;
   padding: 15px;
   text-align: center;
-  /* width: 40px; */
   color: white;
   margin: 0.5%;
 }
@@ -222,7 +221,7 @@
   margin: 1%;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .first_img_txt {
     grid-area: a;
   }
@@ -250,7 +249,6 @@
     margin-bottom: 0px;
   }
 
-
   .second_img_txt {
     grid-area: b;
   }
@@ -270,7 +268,7 @@
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .one {
     grid-area: a1;
   }
@@ -330,20 +328,20 @@
   }
 } 
 
-@media only screen and (min-width: 768px){
-  .aaa{
+@media only screen and (min-width: 768px) {
+  .aaa {
     grid-area: aa;
   }
 
-  .bbb{
+  .bbb {
     grid-area: bb;
   }
 
-  .ccc{
+  .ccc {
     grid-area: cc;
   }
 
-  .ddd{
+  .ddd {
     grid-area: dd;
   }
 
@@ -353,7 +351,7 @@
       'aa bb cc dd';
     gap: 0.5%;
     width: 100%;
-    height:100%;
+    height: 100%;
     }
 
     .infogrid {
@@ -379,32 +377,32 @@
       padding-left: 30%;
     }
   
-    .aaa{
+    .aaa {
       width: 100%;
-      margin:auto;
+      margin: auto;
       height: 100%
     }
   
-    .bbb{
+    .bbb {
       width: 100%;
       margin: auto;
-      height:100%;
+      height: 100%;
     }
   
     .ccc {
-      width:100%;
+      width: 100%;
       margin: auto;
-      height:100%
+      height: 100%
     }
   
-    .ddd{
-      width:100%;
-      margin:auto;
-      height:100%;
+    .ddd {
+      width: 100%;
+      margin: auto;
+      height: 100%;
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .a1a {
     grid-area: a1a;
   }
@@ -520,13 +518,13 @@
     color: grey;
   }
 
-  .nav_img{
-    height:48px;
-    width:106px;
+  .nav_img {
+    height: 48px;
+    width: 106px;
   }
 
-  .navigation{
-    display:none;
+  .navigation {
+    display: none;
   }
 
   .search {
@@ -545,19 +543,13 @@
     position: fixed;
     background-color: white;
     width: 100%;
-    height:48px;
+    height: 48px;
     display: flex;
   }
-
 }
 
-
-
-
-/* .....................New day................................................*/
-
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  .container_2{
+  .container_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
@@ -581,9 +573,7 @@
 }
 }
 
-
 @media only screen and (min-width: 600px) and (max-width: 767px) {
- 
   .div_latest_deal {
     display: block;
   }
@@ -606,7 +596,6 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-
   .hard_fork_img {
     height: 393px;
     width: 100%;
@@ -628,13 +617,13 @@
     color: grey;
   }
 
-  .nav_img{
-    height:48px;
-    width:106px;
+  .nav_img {
+    height: 48px;
+    width: 106px;
   }
 
-  .navigation{
-    display:none;
+  .navigation {
+    display: none;
   }
 
   .search {
@@ -653,10 +642,9 @@
     position: fixed;
     background-color: white;
     width: 100%;
-    height:48px;
+    height: 48px;
     display: flex;
   }
-
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -687,7 +675,6 @@
     margin-bottom: 0px;
   }
 
-
   .second_img_txt {
     grid-area: b;
   }
@@ -713,29 +700,29 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5%;
     width: 100%;
-    height:100%;
+    height: 100%;
   }
 
-  .aaa{
-    width: 100%;
-    margin:auto;
-    height:100%;
-  }
-
-  .bbb{
+  .aaa {
     width: 100%;
     margin: auto;
-    height:100%;
+    height: 100%;
+  }
+
+  .bbb {
+    width: 100%;
+    margin: auto;
+    height: 100%;
   }
 
   .ccc {
-    width:100%;
+    width: 100%;
     margin: auto;
-    height:100%;
+    height: 100%;
   }
 
-  .ddd{
-    display:none;
+  .ddd {
+    display: none;
   }
 
   .infogrid {

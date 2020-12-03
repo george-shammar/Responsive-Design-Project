@@ -246,8 +246,8 @@
   .img_2 {
     margin-top: 15%;
     padding-top: 17px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .second_img_txt {
@@ -332,23 +332,35 @@
 @media only screen and (min-width: 768px) {
   .aaa {
     grid-area: aa;
+    width: 100%;
+    margin: auto;
+    height: 100%
   }
 
   .bbb {
     grid-area: bb;
+    width: 100%;
+    margin: auto;
+    height: 100%
   }
 
   .ccc {
     grid-area: cc;
+    width: 100%;
+    margin: auto;
+    height: 100%
   }
 
   .ddd {
     grid-area: dd;
+    width: 100%;
+    margin: auto;
+    height: 100%
   }
 
   .container_3 {
     display: grid;
-    grid-template-areas:
+    grid-template-areas: 
       'aa bb cc dd';
     gap: 0.5%;
     width: 100%;
@@ -363,7 +375,7 @@
     padding-bottom: 3%;
     margin-bottom: 0%;
   }
-    
+
   .infogrid-img {
     width: 50px;
     height: 50px;
@@ -371,35 +383,11 @@
     margin-top: 20px;
     margin-left: 10px;
   }
-    
+
   .seriesA {
     background-color: rgb(225, 223, 220);
     margin-top: 2px;
     padding-left: 30%;
-  }
-  
-  .aaa {
-    width: 100%;
-    margin: auto;
-    height: 100%
-  }
-  
-  .bbb {
-    width: 100%;
-    margin: auto;
-    height: 100%;
-  }
-  
-  .ccc {
-    width: 100%;
-    margin: auto;
-    height: 100%
-  }
-  
-  .ddd {
-    width: 100%;
-    margin: auto;
-    height: 100%;
   }
 }
 

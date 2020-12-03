@@ -24,6 +24,7 @@
   position: absolute;
   margin-top: 30%;
   color: white;
+  justify-content: flex-end;
 }
 
 .txt2_3 {
@@ -162,24 +163,11 @@
   display: block;
   height: 20px;
   width: 10px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   /* width: 40px; */
   color: white;
   margin: 0.5%;
-}
-
-.mail {
-  background: rgb(124, 123, 123);
-  border-radius: 50%;
-  display: block;
-  height: 20px;
-  width: 10px;
-  padding: 10px;
-  text-align: center;
-  width: 40px;
-  color: white;
-  margin: 0.5%; 
 }
 
 .flex-footer {

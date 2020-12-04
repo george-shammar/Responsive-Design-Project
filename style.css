@@ -382,7 +382,7 @@
     display: flex;
     margin-left: 30%;
     width: 40%;
-    margin-top: 1%; 
+    margin-top: 1%;
   }
 
   .links {
@@ -695,7 +695,7 @@
   }
 
   .sub_search {
-    display: none; 
+    display: none;
   }
 
   .navigation_desktop {
@@ -855,4 +855,3 @@
     padding-left: 30%;
   }
 }
-

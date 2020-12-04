@@ -19,11 +19,12 @@ This project clones the "The Next Web" webpage.
 ----
 1. George Gbenle
 - Github: https://github.com/george-shammar
-- Linkedln: https://linkedln.com/george-shammar
+- Linkedln: linkedin.com/in/george-g-5414091b7
+
 
 2. Tasheka Hamilton
 - Github: https://github.com/Tasheka
-- Linkedln: https://linkedln.com/Tasheka
+- Linkedln: linkedin.com/in/tasheka-hamilton-43532311b
 
 **Contributing:**
 

@@ -54,6 +54,10 @@
   margin-bottom: -10px;
 }
 
+.links{
+  color: orangered;
+}
+
 .div_hard_fork {
   height: auto;
   width: 100%;
@@ -378,6 +382,28 @@
     width: 100%;
     margin: auto;
     height: 100%;
+  }
+  
+  .funding_rounds{
+    display: flex;
+    width: 100%;
+  }
+
+  .right_links{
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 1%;
+    
+  }
+
+  .links{
+    margin: 2%;
+    color: orangered;
+  }
+
+  .latest_list{
+    width: 60%;
   }
 
   .container_3 {

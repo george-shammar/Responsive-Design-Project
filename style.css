@@ -636,7 +636,12 @@
     display: block;
   }
 
-  .lastest_deal_img .latest-news-text {
+  .lastest_deal_img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .latest-news-text {
     width: 100%;
     margin: auto;
   }
@@ -645,6 +650,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+    gap: 0.5%;
+  }
+
+  .hard_fork {
+    margin-top: 5%;
   }
 }
 

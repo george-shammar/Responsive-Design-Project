@@ -298,6 +298,7 @@
     width: 100%;
     margin-top: 0;
     position: relative;
+    height: 100%;
   }
 
   .one {
@@ -623,6 +624,37 @@
     z-index: 1;
   }
 }
+
+@media only screen and (min-width: 1920px) {
+  .img_2 {
+    margin-top: 15%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .pic_logo {
+    display: inline;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: -2%;
+  }
+
+  .txt_2 {
+    width: 30%;
+    margin-top: 12%;
+  }
+
+  .txt_3 {
+    margin-top: 5%;
+    width: 30%;
+  }
+
+  .hard_fork_txt {
+    margin-top: 6%;
+    width: 22%;
+  }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .body_width {

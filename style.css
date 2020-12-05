@@ -5,6 +5,11 @@
   position: fixed;
   background-color: white;
   margin-top: -2%;
+  z-index: 2;
+}
+
+.body{
+  z-index: 1;
 }
 
 .container {
@@ -705,6 +710,7 @@
     margin-top: -30px;
     margin-left: 0;
     position: absolute;
+    z-index: 2;
   }
 
   .navigation {
@@ -716,6 +722,7 @@
     left: 13%;
     width: 100%;
     padding-top: 1%;
+    z-index: 2;
   }
 
   .sub_search {
@@ -730,6 +737,7 @@
     position: fixed;
     width: 100%;
     margin-top: -3%;
+    z-index: 2;
   }
 
   .float_right {
@@ -757,6 +765,7 @@
     height: 48px;
     display: flex;
     position: fixed;
+    z-index: 2;
   }
 
   .first_img_txt {
@@ -865,5 +874,9 @@
     background-color: rgb(225, 223, 220);
     margin-top: 2px;
     padding-left: 30%;
+  }
+
+  .body{
+    z-index: 1;
   }
 }

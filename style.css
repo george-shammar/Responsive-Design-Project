@@ -280,11 +280,10 @@
   .pic_logo {
     display: block;
     position: absolute;
-    width: 600px;
-    height: 400px;
-    background: transparent;
-    margin-top: -4%;
-    margin-left: -4%;
+    width: 500px;
+    height: 300px;
+    margin-top: 0;
+    margin-left: -2%;
   }
 
   .container {
@@ -580,6 +579,7 @@
     display: flex;
     position: fixed;
     margin-top: 1%;
+    z-index: 2;
   }
 
   .sub_nav {
@@ -603,6 +603,7 @@
     position: fixed;
     width: 100%;
     margin-top: -1%;
+    z-index: 2;
   }
 
   .float_right {
@@ -615,6 +616,10 @@
     position: absolute;
     left: 1%;
     width: 45%;
+  }
+
+  .body{
+    z-index: 1;
   }
 }
 

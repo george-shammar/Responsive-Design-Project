@@ -4,6 +4,20 @@
   height: 46px;
   position: fixed;
   background-color: white;
+  margin-top: -2%;
+}
+
+.container {
+  margin-top: -4%;
+}
+
+.float_right {
+  display: none;
+}
+
+.body_width {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .navigation_tablet {
@@ -18,6 +32,7 @@
 .nav_icons {
   position: absolute;
   right: 5%;
+  margin-top: 2%;
 }
 
 .txt1 {
@@ -125,11 +140,6 @@
   margin-left: 15px;
 }
 
-.flex-footer2 {
-  color: rgb(235, 222, 222);
-  text-align: center;
-}
-
 .infogrid {
   background-color: orangered;
   color: white;
@@ -157,7 +167,7 @@
   display: flex;
 }
 
-.News {
+.news {
   color: orangered;
 }
 
@@ -169,8 +179,8 @@
   background: rgb(124, 123, 123);
   border-radius: 50%;
   display: block;
-  height: 20px;
-  width: 10px;
+  height: 7px;
+  width: 7px;
   padding: 15px;
   text-align: center;
   color: white;
@@ -181,7 +191,6 @@
   display: flex;
   color: rgb(247, 241, 241);
   justify-content: center;
-  margin-top: 5%;
 }
 
 .footer.icons {
@@ -189,13 +198,14 @@
 }
 
 .footer-deals {
-  padding: 40px;
   background-color: rgb(34, 33, 33);
   align-content: center;
+  height: 120px;
+  padding-top: 40px;
 }
 
 .foot-foot {
-  padding: 25px;
+  padding: 5px;
   background-color: rgb(7, 7, 7);
   color: rgb(247, 241, 241);
   text-align: center;
@@ -210,11 +220,16 @@
   justify-content: center;
 }
 
-.event .about .advertise .jobs .contact {
-  margin: 1%;
+.event {
+  margin-right: 1%;
 }
 
 @media only screen and (min-width: 1024px) {
+  .body_width {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .first_img_txt {
     grid-area: a;
   }
@@ -224,7 +239,7 @@
   }
 
   .txt1 {
-    margin-top: 250px;
+    margin-top: 320px;
     width: 60%;
     font-size: 40px;
   }
@@ -268,8 +283,8 @@
     width: 600px;
     height: 400px;
     background: transparent;
-    margin-top: 0;
-    margin-left: -5%;
+    margin-top: -4%;
+    margin-left: -4%;
   }
 
   .container {
@@ -281,10 +296,10 @@
       'a a c'
       'a a c';
     width: 100%;
+    margin-top: 0;
+    position: relative;
   }
-}
 
-@media only screen and (min-width: 1024px) {
   .one {
     grid-area: a1;
   }
@@ -318,13 +333,12 @@
   }
 
   .container_2 {
-    grid-gap: -50%;
+    grid-gap: 1.5%;
     display: grid;
     grid-template-areas:
       'a1 a2 a3 a4'
       'a5 a6 a7 a8';
     width: 100%;
-    gap: 0.5%;
   }
 
   .lastest_news {
@@ -342,9 +356,7 @@
     width: 100%;
     margin: auto;
   }
-}
 
-@media only screen and (min-width: 1024px) {
   .aaa {
     grid-area: aa;
     width: 100%;
@@ -397,7 +409,7 @@
   .container_3 {
     display: grid;
     grid-template-areas: 'aa bb cc dd';
-    gap: 0.5%;
+    gap: 1.5%;
     width: 100%;
     height: 100%;
   }
@@ -424,9 +436,7 @@
     margin-top: 2px;
     padding-left: 30%;
   }
-}
 
-@media only screen and (min-width: 1024px) {
   .a1a {
     grid-area: a1a;
   }
@@ -473,17 +483,16 @@
   }
 
   .container_4 {
-    grid-gap: 0.5%;
+    grid-gap: 1.5%;
     display: grid;
     grid-template-areas:
       'a1a a2a a3a'
       'a4a a5a a6a'
       'a7a a8a a9a';
     width: 100%;
+    margin-bottom: 10%;
   }
-}
 
-@media only screen and (min-width: 1024px) {
   .b1b {
     grid-area: b1b;
   }
@@ -527,16 +536,15 @@
   }
 
   .container_5 {
-    grid-gap: 0.5%;
+    grid-gap: 1.5%;
     display: grid;
     grid-template-areas:
       'b1b b2b b3b b4b'
       'b5b b6b b7b b8b';
     width: 100%;
+    margin-bottom: 5%;
   }
-}
 
-@media only screen and (min-width: 1024px) {
   a {
     text-decoration: none;
     color: grey;
@@ -566,11 +574,12 @@
   }
 
   .navigation_tablet {
-    position: fixed;
     background-color: white;
     width: 100%;
     height: 48px;
     display: flex;
+    position: fixed;
+    margin-top: 1%;
   }
 
   .sub_nav {
@@ -591,6 +600,9 @@
     background-color: black;
     align-items: center;
     height: 35px;
+    position: fixed;
+    width: 100%;
+    margin-top: -1%;
   }
 
   .float_right {
@@ -604,14 +616,20 @@
     left: 1%;
     width: 45%;
   }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .body_width {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
   .container_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    gap: 0.5%;
+    gap: 1.5%;
   }
 
   .lastest_news {
@@ -629,9 +647,7 @@
     width: 100%;
     margin: auto;
   }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .div_latest_deal {
     display: block;
   }
@@ -639,6 +655,7 @@
   .lastest_deal_img {
     width: 100%;
     margin: auto;
+    height: 214px;
   }
 
   .latest-news-text {
@@ -650,15 +667,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    gap: 0.5%;
+    gap: 1.5%;
+    margin-bottom: 5%;
   }
 
   .hard_fork {
     margin-top: 5%;
   }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .hard_fork_img {
     height: 234px;
     width: 100%;
@@ -668,8 +684,9 @@
   .container_4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5%;
+    gap: 1.5%;
     width: 100%;
+    margin-bottom: 30%;
   }
 
   .hard_fork_txt {
@@ -677,9 +694,7 @@
     margin-top: 18%;
     position: absolute;
   }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
   a {
     text-decoration: none;
     color: grey;
@@ -713,6 +728,9 @@
     background-color: black;
     align-items: center;
     height: 35px;
+    position: fixed;
+    width: 100%;
+    margin-top: -3%;
   }
 
   .float_right {
@@ -735,15 +753,13 @@
   }
 
   .navigation_tablet {
-    position: fixed;
     background-color: white;
     width: 100%;
     height: 48px;
     display: flex;
+    position: fixed;
   }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .first_img_txt {
     grid-area: a;
   }
@@ -800,25 +816,18 @@
       'a a c'
       'a a c';
     width: 100%;
+    margin-top: 3%;
   }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container_3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.5%;
+    gap: 1.5%;
     width: 100%;
     height: 100%;
   }
 
-  .aaa {
-    width: 100%;
-    margin: auto;
-    height: 100%;
-  }
-
-  .bbb {
+  .aaa .bbb .ccc{
     width: 100%;
     margin: auto;
     height: 100%;
@@ -830,12 +839,6 @@
 
   .links {
     margin-right: 2%;
-  }
-
-  .ccc {
-    width: 100%;
-    margin: auto;
-    height: 100%;
   }
 
   .ddd {

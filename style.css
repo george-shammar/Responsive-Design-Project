@@ -616,7 +616,6 @@
     left: 1%;
     width: 45%;
   }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -656,11 +655,6 @@
     width: 100%;
     margin: auto;
     height: 214px;
-  }
-
-  .latest-news-text {
-    width: 100%;
-    margin: auto;
   }
 
   .container_5 {
@@ -827,7 +821,7 @@
     height: 100%;
   }
 
-  .aaa .bbb .ccc{
+  .aaa .bbb .ccc {
     width: 100%;
     margin: auto;
     height: 100%;

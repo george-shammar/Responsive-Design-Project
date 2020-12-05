@@ -98,8 +98,9 @@
 
 .hard_fork_txt {
   position: absolute;
-  margin-top: 50%;
+  margin-top: 45%;
   color: white;
+  width: 70%;
 }
 
 .hard_fork_div2 {

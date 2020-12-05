@@ -8,7 +8,7 @@
   z-index: 2;
 }
 
-.body{
+.body {
   z-index: 1;
 }
 
@@ -225,7 +225,7 @@
 
 .event {
   margin-right: 1%;
-  font: arial;
+  font-family: arial;
   font-size: 10px;
 }
 
@@ -619,7 +619,7 @@
     width: 45%;
   }
 
-  .body{
+  .body {
     z-index: 1;
   }
 }
@@ -795,7 +795,7 @@
   .img_2 {
     margin-top: 20%;
     margin-bottom: 0;
-  } 
+  }
 
   .pic_logo {
     display: none;
@@ -870,7 +870,7 @@
     padding-left: 30%;
   }
 
-  .body{
+  .body {
     z-index: 1;
   }
 }

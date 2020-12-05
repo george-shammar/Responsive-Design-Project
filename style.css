@@ -655,6 +655,7 @@
     margin-top: 6%;
     width: 22%;
   }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .body_width {
